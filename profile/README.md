@@ -30,7 +30,7 @@ Public repositories under this organization:
 
 | Repository | Product | What it is |
 |---|---|---|
-| [tauri-plugin-system-audio](https://github.com/Subcue/tauri-plugin-system-audio) | SubcueAI | WASAPI loopback + microphone dual capture with WebRTC AEC3 echo cancellation for Tauri 2. Also on [crates.io](https://crates.io/crates/tauri-plugin-system-audio). |
+| [tauri-plugin-system-audio](https://github.com/Subcue/tauri-plugin-system-audio) | SubcueAI | WASAPI loopback + microphone dual capture with WebRTC AEC3 echo cancellation for Tauri 2. [crates.io](https://crates.io/crates/tauri-plugin-system-audio) · [npm `@subcueai/tauri-plugin-system-audio`](https://www.npmjs.com/package/@subcueai/tauri-plugin-system-audio) |
 | [subcue-mcp](https://github.com/Subcue/subcue-mcp) | SubcueAI | Public Model Context Protocol server — live pricing and version data for AI agents, no auth. Official registry `io.github.Subcue/subcue-mcp` · [Smithery](https://smithery.ai/servers/subcueai/subcue-mcp) |
 | [subcue-releases](https://github.com/Subcue/subcue-releases) | SubcueAI | Desktop app release notes and changelog |
 | [edititall-mcp](https://github.com/Subcue/edititall-mcp) | EditItAll | Local MCP that drives the in-browser editors. [crates.io](https://crates.io/crates/edititall-mcp) · [npm `@edititall/mcp`](https://www.npmjs.com/package/@edititall/mcp) · Official registry `io.github.Subcue/edititall-mcp` · [Smithery](https://smithery.ai/servers/subcueai/edititall-mcp) |
