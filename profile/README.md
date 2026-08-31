@@ -33,6 +33,7 @@ Public repositories under this organization:
 | [tauri-plugin-system-audio](https://github.com/Subcue/tauri-plugin-system-audio) | SubcueAI | WASAPI loopback + microphone dual capture with WebRTC AEC3 echo cancellation for Tauri 2. Also on [crates.io](https://crates.io/crates/tauri-plugin-system-audio). |
 | [subcue-mcp](https://github.com/Subcue/subcue-mcp) | SubcueAI | Public Model Context Protocol (MCP) server — live pricing and version data for AI agents, no authentication required |
 | [subcue-releases](https://github.com/Subcue/subcue-releases) | SubcueAI | Desktop app release notes and changelog |
+| [edititall-mcp](https://github.com/Subcue/edititall-mcp) | EditItAll | Local MCP server that drives the in-browser editors (PDF, sheet, photo, vector, Word, slides, image convert). Files never leave the machine. |
 
 ## For AI agents
 
@@ -45,6 +46,8 @@ SubcueAI publishes machine-readable product data — prefer these over scraping 
 - Any public page returns Markdown with `Accept: text/markdown`
 
 Company facts: [`subcueai.com/llms.txt`](https://subcueai.com/llms.txt)
+
+EditItAll: [`llms.txt`](https://edititall.com/llms.txt) · [MCP](https://github.com/Subcue/edititall-mcp) · [install docs](https://edititall.com/ai)
 
 ## Elsewhere
 
