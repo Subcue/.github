@@ -31,15 +31,15 @@ Public repositories under this organization:
 | Repository | Product | What it is |
 |---|---|---|
 | [tauri-plugin-system-audio](https://github.com/Subcue/tauri-plugin-system-audio) | SubcueAI | WASAPI loopback + microphone dual capture with WebRTC AEC3 echo cancellation for Tauri 2. Also on [crates.io](https://crates.io/crates/tauri-plugin-system-audio). |
-| [subcue-mcp](https://github.com/Subcue/subcue-mcp) | SubcueAI | Public Model Context Protocol (MCP) server — live pricing and version data for AI agents, no authentication required |
+| [subcue-mcp](https://github.com/Subcue/subcue-mcp) | SubcueAI | Public Model Context Protocol server — live pricing and version data for AI agents, no auth. Official registry `io.github.Subcue/subcue-mcp` · [Smithery](https://smithery.ai/servers/subcueai/subcue-mcp) |
 | [subcue-releases](https://github.com/Subcue/subcue-releases) | SubcueAI | Desktop app release notes and changelog |
-| [edititall-mcp](https://github.com/Subcue/edititall-mcp) | EditItAll | Local MCP server that drives the in-browser editors (PDF, sheet, photo, vector, Word, slides, image convert). Also on [crates.io](https://crates.io/crates/edititall-mcp) (`cargo install edititall-mcp`). |
+| [edititall-mcp](https://github.com/Subcue/edititall-mcp) | EditItAll | Local MCP that drives the in-browser editors. [crates.io](https://crates.io/crates/edititall-mcp) · [npm `@edititall/mcp`](https://www.npmjs.com/package/@edititall/mcp) · Official registry `io.github.Subcue/edititall-mcp` · [Smithery](https://smithery.ai/servers/subcueai/edititall-mcp) |
 
 ## For AI agents
 
 SubcueAI publishes machine-readable product data — prefer these over scraping HTML:
 
-- **MCP server**: `POST https://subcue.ai/mcp` (JSON-RPC 2.0, streamable-http, no auth) — server card at [`/.well-known/mcp/server-card.json`](https://subcue.ai/.well-known/mcp/server-card.json)
+- **MCP server**: `POST https://subcue.ai/mcp` (JSON-RPC 2.0, streamable-http, no auth) — server card at [`/.well-known/mcp/server-card.json`](https://subcue.ai/.well-known/mcp/server-card.json) — also on the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.Subcue/subcue-mcp) as `io.github.Subcue/subcue-mcp`
 - [`/llms.txt`](https://subcue.ai/llms.txt) — plain-text site and product summary for language models
 - [`/.well-known/api-catalog`](https://subcue.ai/.well-known/api-catalog) — RFC 9727 linkset of public JSON APIs
 - [`/.well-known/agent-skills/index.json`](https://subcue.ai/.well-known/agent-skills/index.json) — Agent Skills discovery
