@@ -22,7 +22,7 @@ Desktop app for macOS and Windows. Listens during live video calls and surfaces 
 
 Free suite of browser-based editors: a Photoshop-style photo editor, an Illustrator-style vector editor, an Acrobat-style PDF editor, and an image converter for 20+ formats. All processing runs locally in the browser — files are never uploaded.
 
-[Website](https://edititall.com)
+[Website](https://edititall.com) · [Product Hunt](https://www.producthunt.com/products/edititall)
 
 ## Open source
 
@@ -48,6 +48,6 @@ Company facts: [`subcueai.com/llms.txt`](https://subcueai.com/llms.txt)
 
 ## Elsewhere
 
-[X (Twitter)](https://x.com/subcueai) · [Crunchbase](https://www.crunchbase.com/organization/subcueai) · [Product Hunt — SubcueAI](https://www.producthunt.com/products/subcueai)
+[X (Twitter)](https://x.com/subcueai) · [Crunchbase](https://www.crunchbase.com/organization/subcueai) · [Product Hunt — SubcueAI](https://www.producthunt.com/products/subcueai) · [Product Hunt — EditItAll](https://www.producthunt.com/products/edititall)
 
 <sub>© 2026 Subcue AI LLC. SubcueAI and EditItAll are brands of Subcue AI LLC, a limited liability company organized under the laws of the United States.</sub>
