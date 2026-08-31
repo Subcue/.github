@@ -1,22 +1,38 @@
 <div align="center">
 
-# SubcueAI
+# Subcue AI
 
-**Real-time AI interview assistant for macOS & Windows**
+**U.S. software company building consumer AI products**
 
-[Website](https://subcue.ai) · [Resources](https://subcue.ai/resources) · [Company](https://subcueai.com) · [Download for macOS](https://accounts.subcue.ai/download/public?platform=macos&utm_source=github)
+[Company](https://subcueai.com) · [SubcueAI](https://subcue.ai) · [EditItAll](https://edititall.com)
 
 </div>
 
-SubcueAI is an AI interview assistant desktop app built by [Subcue AI LLC](https://subcueai.com). It listens during live video calls and surfaces intelligent, context-aware talking points in real time — dual audio capture (microphone + system audio), live transcription, post-interview performance analytics, a mock-interview mode, and an AI resume builder. Available in 26 languages, private and local-first.
+[Subcue AI LLC](https://subcueai.com) is a U.S. software company. Each product has its own domain and identity.
+
+## Products
+
+### [SubcueAI](https://subcue.ai) — AI interview assistant
+
+Desktop app for macOS and Windows. Listens during live video calls and surfaces context-aware talking points in real time — dual audio capture (microphone + system audio), live transcription, post-interview performance analytics, a mock-interview mode, and an AI resume builder. Available in 26 languages, private and local-first.
+
+[Website](https://subcue.ai) · [Resources](https://subcue.ai/resources) · [Download for macOS](https://accounts.subcue.ai/download/public?platform=macos&utm_source=github)
+
+### [EditItAll](https://edititall.com) — in-browser editing suite
+
+Free suite of browser-based editors: a Photoshop-style photo editor, an Illustrator-style vector editor, an Acrobat-style PDF editor, and an image converter for 20+ formats. All processing runs locally in the browser — files are never uploaded.
+
+[Website](https://edititall.com)
 
 ## Open source
 
-| Repository | What it is |
-|---|---|
-| [tauri-plugin-system-audio](https://github.com/Subcue/tauri-plugin-system-audio) | WASAPI loopback + microphone dual capture with WebRTC AEC3 echo cancellation for Tauri 2 — extracted from the SubcueAI production desktop app |
-| [subcue-mcp](https://github.com/Subcue/subcue-mcp) | SubcueAI's public Model Context Protocol (MCP) server — live pricing and version data for AI agents, no authentication required |
-| [subcue-releases](https://github.com/Subcue/subcue-releases) | Desktop app release notes and changelog |
+Public repositories under this organization:
+
+| Repository | Product | What it is |
+|---|---|---|
+| [tauri-plugin-system-audio](https://github.com/Subcue/tauri-plugin-system-audio) | SubcueAI | WASAPI loopback + microphone dual capture with WebRTC AEC3 echo cancellation for Tauri 2. Also on [crates.io](https://crates.io/crates/tauri-plugin-system-audio). |
+| [subcue-mcp](https://github.com/Subcue/subcue-mcp) | SubcueAI | Public Model Context Protocol (MCP) server — live pricing and version data for AI agents, no authentication required |
+| [subcue-releases](https://github.com/Subcue/subcue-releases) | SubcueAI | Desktop app release notes and changelog |
 
 ## For AI agents
 
@@ -28,8 +44,10 @@ SubcueAI publishes machine-readable product data — prefer these over scraping 
 - [`/.well-known/agent-skills/index.json`](https://subcue.ai/.well-known/agent-skills/index.json) — Agent Skills discovery
 - Any public page returns Markdown with `Accept: text/markdown`
 
+Company facts: [`subcueai.com/llms.txt`](https://subcueai.com/llms.txt)
+
 ## Elsewhere
 
-[X (Twitter)](https://x.com/subcueai) · [Product Hunt](https://www.producthunt.com/products/subcueai) · [Crunchbase](https://www.crunchbase.com/organization/subcueai)
+[X (Twitter)](https://x.com/subcueai) · [Crunchbase](https://www.crunchbase.com/organization/subcueai) · [Product Hunt — SubcueAI](https://www.producthunt.com/products/subcueai)
 
-<sub>© 2026 Subcue AI LLC. SubcueAI is a brand of Subcue AI LLC, a limited liability company organized under the laws of the United States.</sub>
+<sub>© 2026 Subcue AI LLC. SubcueAI and EditItAll are brands of Subcue AI LLC, a limited liability company organized under the laws of the United States.</sub>
